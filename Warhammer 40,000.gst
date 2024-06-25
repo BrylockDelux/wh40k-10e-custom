@@ -251,6 +251,7 @@
     <categoryEntry id="b88e-1b0c-b79f-5cdf" name="Faction: Iron Hands" hidden="false"/>
     <categoryEntry id="97aa-d0e4-71c7-96c3" name="Faction: Imperial Fists" hidden="false"/>
     <categoryEntry id="5c0e-2250-dd3a-1df9" name="Faction: White Scars" hidden="false"/>
+    <categoryEntry id="5a2d-2f00-c054-4dcb" name="Faction: Carcharodons" hidden="false"/>
     <categoryEntry id="5c0e-4c31-d51b-e470" name="Warlord" hidden="false">
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="16ac-a6c9-6d9a-d6d5" type="min"/>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="5029-9237-e8db-af55" name="Imperium - Adeptus Astartes - Carcharodons" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="15" battleScribeVersion="2.03" type="catalogue">
+  <entryLinks>
+    <entryLink import="true" name="Tyberos, the Red Wake" hidden="false" type="selectionEntry" id="388d-198a-29f-d03e" targetId="6380-5757-2c46-31cc">
+      <categoryLinks>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="5cc7-6dbe-3530-9949" primary="true" name="Epic Hero"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink name="Imperium - Space Marines" id="5a8e-75bd-17ec-90f8" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" type="catalogue"/>
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights" id="5797-b324-7691-9186" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Imperial Agents" id="5c79-7373-2e12-276b" targetId="b00-cd86-4b4c-97ba" importRootEntries="true"/>
+  </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Tyberos, the Red Wake" hidden="false" id="6380-5757-2c46-31cc">
+      <infoLinks>
+        <infoLink name="Leader" hidden="false" type="rule" id="6cb2-408a-1f6-3bd6" targetId="b4dd-3e1f-41cb-218f"/>
+        <infoLink name="Oath of Moment" hidden="false" type="rule" id="62f4-78b2-55de-a579" targetId="3b76-4053-ece9-6e7d"/>
+        <infoLink name="Invulnerable Save" hidden="false" type="profile" id="6606-4035-22c1-ba02" targetId="db19-dee7-9530-ef0e"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="185"/>
+      </costs>
+      <profiles>
+        <profile name="Tyberos, the Red Wake" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6d59-fc60-ed57-4936">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Unnatural Speed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6a9c-84b5-b51-8755">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic  Intervention Stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Master Tactician" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6370-225b-feb9-5d86">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, if this unit’s Tyberos, the Red Wake model is on the battlefield, you gain 1CP.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Honour Guard of Macragge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6bb-e17c-f1ac-9efc">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit contains one or more Victrix Honour Guard models, this unit’s Tyberos, the Red Wake model has the Feel No Pain 4+ ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="69d7-a45d-830a-99">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can be attached to the following units:
+
+■ Terminator Assault Squad
+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Tyberos, the Red Wake" hidden="false" id="6ee9-60dc-e65-b0c5">
+          <categoryLinks>
+            <categoryLink targetId="4f3a-f0f7-6647-348d" id="6855-4504-4bdb-b7dd" primary="true" name="Epic Hero"/>
+            <categoryLink targetId="9cfd-1c32-585f-7d5c" id="65ff-3e6e-99bf-e710" primary="false" name="Character"/>
+            <categoryLink targetId="81f0-f40e-c36c-5a30" id="6ac-fe0c-b486-d4a8" primary="false" name="Gravis"/>
+            <categoryLink targetId="5bd8-882d-302b-48f3" id="6bac-672d-533-1427" primary="false" name="Chapter Master"/>
+            <categoryLink targetId="9623-32ee-a055-6db3" id="64e7-68d6-edb2-9b1a" primary="false" name="Tyberos, the Red Wake"/>
+            <categoryLink targetId="6e7-40c-58d9-e402" id="60b1-c86e-5360-e96b" primary="false" name="Faction: Adeptus Astartes"/>
+            <categoryLink targetId="5a2d-2f00-c054-4dcb" id="6c3b-bbe2-8a2-ed56" primary="false" name="Faction: Carcharodons"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e121-8138-bc71-4480"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8435-7ba8-1c49-a3ef"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Hunger and Slake" hidden="false" id="582e-2b4f-616-d783">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f7e-bc36-604-144e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61d0-3108-dc95-c1c2"/>
+              </constraints>
+              <profiles>
+                <profile name="Hunger and Slake" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5126-71fe-a7b1-b32e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Sustained Hits" hidden="false" type="rule" id="539a-42d1-5db3-31da" targetId="1897-c22c-9597-12b1"/>
+                <infoLink name="Twin-linked" hidden="false" type="rule" id="5fbd-ceb6-4896-79b4" targetId="cf93-ad4d-2f08-a79d"/>
+                <infoLink name="Deep Strike" hidden="false" type="rule" id="5faa-c494-3f57-38e5" targetId="7cb5-dd6b-dd87-ad3b"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="aff3-d6a3-2a95-9dc" id="6299-1703-3cc5-66e3" primary="false" name="Imperium"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="6252-c269-18e9-9a11" primary="false" name="Infantry"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6645-ed9f-3464-84a0"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="6dd7-6ab0-2cbc-fe02" targetId="caa-f869-3cbd-b48e"/>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Tyberos, the Red Wake" hidden="false" id="9623-32ee-a055-6db3"/>
+  </categoryEntries>
+</catalogue>
