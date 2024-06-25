@@ -43,11 +43,6 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, if this unit’s Tyberos, the Red Wake model is on the battlefield, you gain 1CP.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Honour Guard of Macragge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6bb-e17c-f1ac-9efc">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit contains one or more Victrix Honour Guard models, this unit’s Tyberos, the Red Wake model has the Feel No Pain 4+ ability.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="69d7-a45d-830a-99">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can be attached to the following units:
@@ -87,8 +82,7 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1, Twin-Linked</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
